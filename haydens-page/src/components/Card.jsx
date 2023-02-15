@@ -2,8 +2,7 @@ import React from 'react';
 
 const Card = () => {
 	return (
-		<div className="w-[300px] h-[500px] bg-gray-800 p-6 rounded-lg shadow-lg">
-			#Some dummy text
+		<div className="w-[375px] h-[525px] bg-background p-6 rounded-xl shadow-lg">
 			<p className="text-gray-600">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
