@@ -33,7 +33,10 @@
 	background-clip: text;
 	text-fill-color: transparent;
 }
-
+.gradient-bg {
+	background-image: linear-gradient(to right, #f98449, #dd2851, #943494);
+	filter: saturate(150%) brightness(120%);
+}
 .bg-blue-gradient {
 	background: linear-gradient(
 		157.81deg,
