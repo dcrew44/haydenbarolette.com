@@ -1,5 +1,5 @@
-import styles from './style';
-import { Navbar, Hero } from './components';
+import styles from "./style";
+import { Navbar, Hero, Footer } from "./components";
 const App = () => {
 	return (
 		<div className="bg-background w-full overflow-hidden">
@@ -12,6 +12,11 @@ const App = () => {
 			<div className={`gradient-bg h-screen ${styles.flexStart}`}>
 				<div className={`${styles.boxWidth}`}>
 					<Hero />
+				</div>
+			</div>
+			<div className={`${styles.paddingX}  ${styles.flexCenter}`}>
+				<div className={`${styles.boxWidth}`}>
+					<Footer />
 				</div>
 			</div>
 		</div>
