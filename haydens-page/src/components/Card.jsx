@@ -2,12 +2,6 @@ import React from "react";
 import { leftarrow, rightarrow } from "../assets";
 
 const Card = () => {
-	const [cursorPos, setCursorPos] = React.useState({ x: 0, y: 0 });
-
-	const handleMouseMove = (e) => {
-		setCursorPos({ x: e.clientX, y: e.clientY });
-	};
-
 	const [isHoveringLeft, setIsHoveringLeft] = React.useState(false);
 	const [isHoveringRight, setIsHoveringRight] = React.useState(false);
 
@@ -29,7 +23,6 @@ const Card = () => {
 			className={`w-[375px] h-[525px] bg-background p-3 rounded-xl cursor-pointer ${
 				isHoveringLeft ? "bg-blend-darken" : ""
 			} ${isHoveringRight ? "bg-blend-darken" : ""}`}
-			onMouseMove={handleMouseMove}
 		>
 			<div className="flex float-left  h-full w-[64px] items-center m-0">
 				<img
