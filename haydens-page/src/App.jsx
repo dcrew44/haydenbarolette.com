@@ -1,5 +1,6 @@
 import styles from "./style";
-import { Navbar, Hero, Footer } from "./components";
+import { Navbar, Hero, Footer, Hello } from "./components";
+import { headshot } from "./assets";
 const App = () => {
 	return (
 		<div className="bg-background w-full overflow-hidden">
@@ -9,7 +10,14 @@ const App = () => {
 				</div>
 			</div>
 
-			<div className={`gradient-bg h-screen ${styles.flexStart}`}>
+			<div className={`gradient-bg h-screen ${styles.flexStart} relative`}>
+				<div className={`${styles.boxWidth}`}>
+					<Hello />
+				</div>
+				<div className="absolute bottom-0 right-0">
+					<img src={headshot} className="scale-[25%] " alt="headshot" />
+				</div>
+
 				<div className={`${styles.boxWidth}`}>
 					<Hero />
 				</div>
