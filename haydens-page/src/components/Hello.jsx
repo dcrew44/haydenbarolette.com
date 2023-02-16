@@ -15,8 +15,9 @@ const Hello = () => {
 								autoStart: true,
 								loop: true,
 							}}
-						/>
+						/>{" "}
 					</span>
+					<span className="inline-block text-[#7f00ff] capitalize">...</span>
 				</h1>
 			</span>
 		</div>
