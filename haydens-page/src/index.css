@@ -93,6 +93,21 @@
 	-webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 	animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
+.social-links {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+}
+
+.social-links a {
+	font-weight: bold;
+	color: #333; /* or your brand color */
+	text-decoration: none;
+	margin-right: 8px;
+}
+
+.social-links a:hover {
+	color: #666; /* or your brand color */
+}
 
 @-webkit-keyframes slide-top {
 	0% {

@@ -1,6 +1,6 @@
-import React from 'react';
-import { logo } from '../assets';
-import { navLinks } from '../constants/index';
+import React from "react";
+import { logo } from "../assets";
+import { navLinks } from "../constants/index";
 function Navbar() {
 	return (
 		<nav className="w-full flex py-2 justify-between items-center navbar">
@@ -11,7 +11,7 @@ function Navbar() {
 					<li
 						key={link.id}
 						className={`font-hyperion font-normal cursor-pointer text-[16px] ${
-							index == navLinks.length - 1 ? 'mr-0' : 'mr-10'
+							index == navLinks.length - 1 ? "mr-0" : "mr-10"
 						} text-white hover:text-gray-500`}
 					>
 						<a href={`#${link.id}`}>{link.title}</a>
